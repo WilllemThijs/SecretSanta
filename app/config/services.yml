@@ -8,6 +8,7 @@ services:
         public: false
         bind:
             $geoIpDbPath: '%geo_ip_db_path%'
+            $recaptchaSecret: '%kernel.root_dir%/config/recaptcha_secrets.json'
 
     Intracto\SecretSantaBundle\:
         resource: '../../src/Intracto/SecretSantaBundle/*'
