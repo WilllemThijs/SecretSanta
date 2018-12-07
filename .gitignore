@@ -1,5 +1,6 @@
 /.web-server-pid
 app/config/client_secrets.json
+app/config/recaptcha_secrets.json
 /app/config/parameters.yml
 /build/
 /phpunit.xml
